@@ -1,5 +1,3 @@
-# Computational models for Population-wide Testing, Tracing and Isolation
-
 ## Multi-paradigm modelling modelling in Python
 
 The [PTTI software package] is designed for running epidemiological models
@@ -27,7 +25,7 @@ software is
     machinery. It does have to be written in [Python]. We're sorry, it
     would have taken too long to make this software in [Haskell].
   
-## Scaling up epidemiological models with rule-based modelling
+## Scaling up epidemiological models with RBM
 
 This is a collection of models as described in our paper,
 [Scaling up epidemiological models with rule-based modelling].
