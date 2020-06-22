@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+*****************************************************************************
+*  _  __ * The Kappa Language                                               *
+* | |/ / * Copyright 2010-2020 CNRS - Harvard Medical School - INRIA - IRIF *
+* | ' /  ********************************************************************
+* | . \  * This file is distributed under the terms of the                  *
+* |_|\_\ * GNU Lesser General Public License Version 3                      *
+*        *                                                                  *
+*****************************************************************************
+
+-->
+  <head>
+    <title>KaSim in browser</title>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.2/codemirror.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.2/addon/mode/simple.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.2/addon/selection/active-line.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.2/addon/lint/lint.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.2/codemirror.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.2/addon/lint/lint.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.2/addon/dialog/dialog.css"></link>
+    <script src="class.js?15560"></script>
+    <script src="parser.js?15560"></script>
+    <script src="render-contactmap.js?15560"></script>
+    <script src="render-snapshot.js?15560"></script>
+    <script src="render-story.js?15560"></script>
+    <script src="graphlogger.js?15560"></script>
+    <script src="utils.js?15560"></script>
+    <script src="tooltip-contactmap.js?15560"></script>
+    <script src="tooltip-snapshot.js?15560"></script>
+    <script src="Kappa.js?15560"></script>
+    <script src="common.js?15560"></script>
+    <script src="flux.js?15560"></script>
+    <script src="plot.js?15560"></script>
+    <script src="JsSim.js?15560"></script>
+    <script>if (window.module) module = window.module;</script>
+    <link rel="stylesheet" href="JsSim.css?15560"></link>
+	<!-- Piwik -->
+	<script type="text/javascript">
+	var _paq = _paq || [];
+	_paq.push(['trackPageView']);
+	_paq.push(['enableLinkTracking']);
+	(function() {
+		var u="https://coutosuisse.fagny.fr/analytics/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', 1]);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	    })();
+	</script>
+	<noscript><p><img src="https://coutosuisse.fagny.fr/analytics/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+        
+   </head>
+   <body class="flex-content">
+    <div class="container-fluid flex-content" id="main">
+    </div>
+    <footer id="footer" class="footer hidden">
+      <div class="container">
+        <div class="row" id="debug-div"></div>
+        <div class="row" id="console-div"></div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.2/addon/dialog/dialog.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.2/addon/search/searchcursor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.53.2/addon/search/search.js"></script>
+  </body>
+</html>
