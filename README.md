@@ -24,7 +24,10 @@ software is
     states or agents can use to be incorporated into the simulation
     machinery. It does have to be written in [Python]. We're sorry, it
     would have taken too long to make this software in [Haskell].
-  
+
+An [on-line demo] is available for exploring scenarios with interventions
+like those in the [PTTI paper].
+
 ## Scaling up epidemiological models with RBM
 
 This is a collection of models as described in our paper,
@@ -59,3 +62,4 @@ the Github. It is also possible to simulate them in your
 [Kappa language]: https://kappalanguage.org/
 [models/ subdirectory]: https://github.com/ptti/rule-based-models/tree/master/models
 [web browser]: https://ptti.github.com/kasim/
+[on-ine demo]: https://ptti.styx.org/
