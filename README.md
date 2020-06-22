@@ -62,4 +62,4 @@ the Github. It is also possible to simulate them in your
 [Kappa language]: https://kappalanguage.org/
 [models/ subdirectory]: https://github.com/ptti/rule-based-models/tree/master/models
 [web browser]: https://ptti.github.com/kasim/
-[on-ine demo]: https://ptti.styx.org/
+[on-line demo]: https://ptti.styx.org/

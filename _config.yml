@@ -1,3 +1,4 @@
 theme: jekyll-theme-midnight
 title: PTTI Computational Models
-github.repository_url: https://github.com/ptti/
+github:
+  repository_url: https://github.com/ptti/
