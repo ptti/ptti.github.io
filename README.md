@@ -1,6 +1,6 @@
-## Computational models for Population-wide Testing, Tracing and Isolation
+# Computational models for Population-wide Testing, Tracing and Isolation
 
-### Multi-paradigm modelling environment in Python
+## Multi-paradigm modelling modelling in Python
 
 The [PTTI software package] is designed for running epidemiological models
 with interventions. It contains the models used in our technical 
@@ -27,6 +27,23 @@ software is
     machinery. It does have to be written in [Python]. We're sorry, it
     would have taken too long to make this software in [Haskell].
   
+## Scaling up epidemiological models with rule-based modelling
+
+This is a collection of models as described in our paper,
+[Scaling up epidemiological models with rule-based modelling].
+They are written in the [Kappa language] and the models themselves
+can be found in the [models/ subdirectory] of the repository on
+the Github. It is also possible to simulate them in your
+[web browser] with the links below:
+
+* [Masks]
+* [Fomites and hand-washing]
+* [Vector-borne disease]
+* [Testing]
+* [Testing and contact tracing]
+* [Schools as accelerants]
+* [Gathering and superspreading]
+
 [PTTI software package]: https://github.com/ptti/ptti
 [SEIR-TTI paper]: https://github.com/ptti/ptti/raw/master/docs/tti.pdf
 [PTTI paper]: https://github.com/ptti/ptti/raw/master/docs/PTTI-Covid-19-UK.pdf
@@ -34,3 +51,13 @@ software is
 [Python]: https://python.org/
 [MPI]: https://www.mpi-forum.org/
 [Haskell]: https://www.haskell.org/
+[Masks]: https://ptti.github.io/kasim/?model=https%3A//raw.githubusercontent.com/ptti/rule-based-models/master/models/masks.ka
+[Fomites and hand-washing]: https://ptti.github.io/kasim/?model=https%3A//raw.githubusercontent.com/ptti/rule-based-models/master/models/fomites.ka
+[Vector-borne disease]: https://ptti.github.io/kasim/?model=https%3A//raw.githubusercontent.com/ptti/rule-based-models/master/models/mosquitoes.ka
+[Testing]: https://ptti.github.io/kasim/?model=https%3A//raw.githubusercontent.com/ptti/rule-based-models/master/models/testing.ka
+[Testing and contact tracing]: https://ptti.github.io/kasim/?model=https%3A//raw.githubusercontent.com/ptti/rule-based-models/master/models/tracing.ka
+[Schools as accelerants]: https://ptti.github.io/kasim/?model=https%3A//raw.githubusercontent.com/ptti/rule-based-models/master/models/school.ka
+[Gathering and superspreading]: https://ptti.github.io/kasim/?model=https%3A//raw.githubusercontent.com/ptti/rule-based-models/master/models/super.ka
+[Kappa language]: https://kappalanguage.org/
+[models/ subdirectory]: https://github.com/ptti/rule-based-models/tree/master/models
+[web browser]: https://ptti.github.com/kasim/
